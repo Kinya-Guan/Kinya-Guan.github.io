@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useThemeStore, resolveTheme } from '@/lib/stores/themeStore';
 
 type MediaQueryListWithDeprecated = MediaQueryList & {
@@ -10,15 +10,8 @@ type MediaQueryListWithDeprecated = MediaQueryList & {
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const { theme } = useThemeStore();
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  useEffect(() => {
-    if (!mounted) return;
-
     const root = document.documentElement;
 
     const apply = () => {
@@ -30,15 +23,14 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 
     apply();
 
-    // If following system, update on OS preference changes
     let media: MediaQueryList | null = null;
     const onChange = () => apply();
+
     if (theme === 'system' && typeof window !== 'undefined' && typeof window.matchMedia === 'function') {
       media = window.matchMedia('(prefers-color-scheme: dark)') as MediaQueryListWithDeprecated;
       try {
         media.addEventListener('change', onChange);
       } catch {
-        // Safari <14 fallback - addListener is deprecated
         media?.addListener?.(onChange);
       }
     }
@@ -48,17 +40,11 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
         try {
           media.removeEventListener('change', onChange);
         } catch {
-          // Safari <14 fallback - removeListener is deprecated
           (media as MediaQueryListWithDeprecated)?.removeListener?.(onChange);
         }
       }
     };
-  }, [theme, mounted]);
-
-  // Prevent flash of unstyled content
-  if (!mounted) {
-    return <div style={{ visibility: 'hidden' }}>{children}</div>;
-  }
+  }, [theme]);
 
   return <>{children}</>;
-} 
+}
