@@ -34,15 +34,15 @@ enable_one_page_mode = false
 enabled = true
 locales = ["en", "zh", "ja"]
 default_locale = "en"
-mode = "auto"
+mode = "fixed"
 fixed_locale = "en"
 persist = true
 switcher = true
 
 [i18n.labels]
 en = "English"
-ja = "日本語"
 zh = "中文"
+ja = "日本語"
 
 [[navigation]]
 title = "About"
