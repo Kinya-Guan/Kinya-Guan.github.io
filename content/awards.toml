@@ -3,25 +3,13 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "理学部長表彰"
+subtitle = "Nagoya University"
 date = "2024"
-content = "Description of the award."
+content = "Received the Dean's Commendation from the Graduate School of Science, Nagoya University. [Official announcement](https://www.sci.nagoya-u.ac.jp/news/award/_1_4.html)"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "2021年度 理学部奨励賞"
+subtitle = "Nagoya University"
 date = "2022"
-content = "Description of the award."
+content = "Received the 2021 School of Science Encouragement Award from the School of Science, Nagoya University. [Official announcement](https://www.sci.nagoya-u.ac.jp/news/award/2021.html)"

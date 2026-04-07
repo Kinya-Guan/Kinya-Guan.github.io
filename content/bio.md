@@ -1,5 +1,6 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am a PhD student (D1) in the [Department of Physics at the University of Tokyo](https://www.phys.s.u-tokyo.ac.jp/en/) and a member of the [Katsura Group](https://park.itc.u-tokyo.ac.jp/hkatsura-lab/).
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+I am also affiliated with the [Forefront Physics and Mathematics Program to Drive Transformation (FoPM)](https://www.s.u-tokyo.ac.jp/en/FoPM/).
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+My research interests lie in condensed matter physics, statistical mechanics, and mathematical physics. I am currently working on quantum many-body systems and their dynamics.
+

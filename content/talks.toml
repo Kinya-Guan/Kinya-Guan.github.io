@@ -1,0 +1,27 @@
+type = "card"
+title = "Talks"
+description = "Conference presentations and poster presentations."
+
+[[items]]
+title = "Exactly Solvable Disorder-free Quantum Breakdown Model: Spectrum, Thermodynamics, and Dynamics"
+subtitle = "APS Global Physics Summit 2026"
+date = "March 2026"
+content = "Virtual presentation (non-refereed)."
+
+[[items]]
+title = "Disorder-free Quantum Breakdown Model: Exact Solution and Dynamics"
+subtitle = "JPS 2025 Spring Meeting"
+date = "March 2025"
+content = "Oral presentation (non-refereed), online. Coauthor: Hosho Katsura."
+
+[[items]]
+title = "Quantum Breakdown Model: the Exact Solution and Dynamics"
+subtitle = "2nd FoPM Symposium×International Career Seminar, The University of Tokyo"
+date = "February 2025"
+content = "Poster presentation (non-refereed)."
+
+[[items]]
+title = "Disorder-free Quantum Breakdown Model: Exact Solution and Dynamics"
+subtitle = "New Trends in Condensed Matter Theory 2024 @ ISSP UTokyo"
+date = "December 2024"
+content = "Poster presentation (non-refereed), Institute for Solid State Physics, The University of Tokyo."

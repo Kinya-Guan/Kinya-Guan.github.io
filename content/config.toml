@@ -1,29 +1,27 @@
 [site]
-title = "Jiale Liu"
-description = "PhD student at the University of Example."
+title = "Kinya Guan"
+description = "PhD student (D1) at the University of Tokyo."
 favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+last_updated = "April 6, 2026"
 
 [author]
-name = "Jiale Liu"
-title = "PhD Student"
-institution = "University of Example"
+name = "Kinya Guan"
+title = "PhD Student (D1)"
+institution = "The University of Tokyo"
 avatar = "/bio.jpg"
 
 [social]
-# Contact information (leave blank or delete to hide)
-
-email = "john.doe@example.com"
-location = "City, Country"
-location_url = "https://maps.google.com"
+email = "xinye-guan@g.ecc.u-tokyo.ac.jp"
+location = "7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan"
+location_url = "https://www.u-tokyo.ac.jp/en/whyutokyo/hongo_index.html"
 location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
+  "Department of Physics, Graduate School of Science,",
+  "The University of Tokyo, Hongo Campus"
 ]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+google_scholar = ""
+orcid = "https://orcid.org/0009-0009-2836-7844"
+github = "https://github.com/Kinya-Guan"
+linkedin = ""
 
 [features]
 # Show a like button on the about page
@@ -34,19 +32,17 @@ enable_one_page_mode = false
 
 [i18n]
 enabled = true
-locales = ["zh", "en"]
+locales = ["en", "zh", "ja"]
 default_locale = "en"
-# "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
 mode = "auto"
 fixed_locale = "en"
-# If true, PRISM will remember user's language preference in browser's localStorage
 persist = true
-# Show a language switcher on the top right corner
 switcher = true
 
 [i18n.labels]
-zh = "中文"
 en = "English"
+ja = "日本語"
+zh = "中文"
 
 [[navigation]]
 title = "About"
@@ -60,23 +56,29 @@ type = "page"
 target = "publications"
 href = "/publications"
 
+#[[navigation]]
+#title = "Teaching"
+#type = "page"
+#target = "teaching"
+#href = "/teaching"
+
+#[[navigation]]
+#title = "Services"
+#type = "page"
+#target = "services"
+#href = "/services"
+
 [[navigation]]
-title = "Teaching"
+title = "Talks"
 type = "page"
-target = "teaching"
-href = "/teaching"
+target = "talks"
+href = "/talks"
 
 [[navigation]]
 title = "Awards"
 type = "page"
 target = "awards"
 href = "/awards"
-
-[[navigation]]
-title = "Services"
-type = "page"
-target = "services"
-href = "/services"
 
 [[navigation]]
 title = "CV"

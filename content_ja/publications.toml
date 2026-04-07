@@ -1,0 +1,4 @@
+type = "publication"
+title = "論文"
+description = "研究業績一覧"
+source = "publications.bib"

@@ -1,46 +1,46 @@
 [site]
 title = "Kinya Guan"
-description = "关欣也的个人主页。"
+description = "関 欣也 のプロファイル。"
 last_updated = "2026年4月6日"
 
 [author]
-name = "关 欣也"
-title = "博士生（D1）"
-institution = "东京大学"
+name = "関 欣也"
+title = "博士課程学生（D1）"
+institution = "東京大学 大学院"
 
 [social]
-location = "日本东京都文京区本乡 7-3-1"
+location = "東京都文京区本郷 7-3-1"
 location_details = [
-  "东京大学大学院理学系研究科物理学专攻，",
-  "东京大学本乡校区"
+  "東京大学大学院理学系研究科物理学専攻，",
+  "東京大学本郷キャンパス"
 ]
 
 [[navigation]]
-title = "关于"
+title = "私について"
 type = "page"
 target = "about"
 href = "/"
 
 [[navigation]]
-title = "论文"
+title = "論文"
 type = "page"
 target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "报告"
+title = "発表"
 type = "page"
 target = "talks"
 href = "/talks"
 
 [[navigation]]
-title = "奖项"
+title = "受賞"
 type = "page"
 target = "awards"
 href = "/awards"
 
 [[navigation]]
-title = "简历"
+title = "履歴書"
 type = "page"
 target = "cv"
 href = "/cv"

@@ -1,0 +1,15 @@
+type = "card"
+title = "受賞"
+description = "これまでに受けた表彰・受賞歴"
+
+[[items]]
+title = "理学部長表彰"
+subtitle = "名古屋大学"
+date = "2024"
+content = "名古屋大学大学院理学研究科において理学部長表彰を受けました。[リンク](https://www.sci.nagoya-u.ac.jp/news/award/_1_4.html)"
+
+[[items]]
+title = "2021年度 理学部奨励賞"
+subtitle = "名古屋大学"
+date = "2022"
+content = "名古屋大学理学部の2021年度理学部奨励賞を受賞しました。[リンク](https://www.sci.nagoya-u.ac.jp/news/award/2021.html)"

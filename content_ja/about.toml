@@ -1,30 +1,30 @@
 type = "about"
-title = "关于我"
+title = "概要"
 
 [profile]
 research_interests = [
-  "凝聚态物理",
-  "统计力学",
-  "数学物理",
-  "量子多体系统",
-  "高能理论物理"
+  "凝縮系物理学",
+  "統計力学",
+  "数理物理",
+  "量子多体系",
+  "高エネルギー物理学"
 ]
 
 [[sections]]
 id = "about"
 type = "markdown"
 source = "bio.md"
-title = "关于我"
+title = "概要"
 
 [[sections]]
 id = "featured_publications"
 type = "publications"
-title = "精选论文"
+title = "主要論文"
 filter = "selected"
 limit = 5
 
 [[sections]]
 id = "news"
 type = "list"
-title = "最新动态"
+title = "お知らせ"
 source = "news.toml"

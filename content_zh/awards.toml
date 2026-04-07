@@ -1,27 +1,15 @@
 type = "card"
-title = "奖项"
-description = "我获得的荣誉与奖项。"
+title = "获奖情况"
+description = "我获得的荣誉与奖项"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2025"
-content = "奖项说明。"
-
-[[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+title = "名古屋大学大学院理学研究科 理学部长表彰"
+subtitle = "名古屋大学"
 date = "2024"
-content = "奖项说明。"
+content = "获得名古屋大学大学院理学研究科理学部长表彰。[官方公告](https://www.sci.nagoya-u.ac.jp/news/award/_1_4.html)"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2023"
-content = "奖项说明。"
-
-[[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+title = "2021年度理学部奖励奖"
+subtitle = "名古屋大学"
 date = "2022"
-content = "奖项说明。"
+content = "获得名古屋大学理学部2021年度理学部奖励奖。[官方公告](https://www.sci.nagoya-u.ac.jp/news/award/2021.html)"
