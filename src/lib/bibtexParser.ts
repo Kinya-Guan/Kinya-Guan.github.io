@@ -82,6 +82,7 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       issue: tags.number,
       pages: tags.pages,
       doi: tags.doi,
+      arxivId: tags.archivePrefix?.toLowerCase() === 'arxiv' ? tags.eprint : undefined,
       url: tags.url,
       code: tags.code,
       abstract: cleanBibTeXString(tags.abstract),

@@ -1,12 +1,18 @@
 type = "card"
 title = "Talks"
-description = "Conference presentations and poster presentations."
+description = "Seminars, conference presentations, and poster presentations."
 
 [[items]]
 title = "Exactly Solvable Disorder-free Quantum Breakdown Model: Spectrum, Thermodynamics, and Dynamics"
+subtitle = "Hatano Laboratory Seminar, The University of Tokyo"
+date = "May 27, 2026"
+content = "Research seminar, Institute of Industrial Science, The University of Tokyo. [Seminar announcement and abstract](http://hatano-lab.iis.u-tokyo.ac.jp/seminar-je.html#2)."
+
+[[items]]
+title = "Disorder-free Quantum Breakdown Model: exact solution and dynamics"
 subtitle = "APS Global Physics Summit 2026"
-date = "March 2026"
-content = "Virtual presentation (non-refereed)."
+date = "March 20, 2026"
+content = "Contributed oral presentation, Denver, Colorado, USA. Session MAR-Y62: Out-of-Equilibrium Quantum Phenomena. Coauthor: Hosho Katsura. [Abstract and program](https://meetings-archive.aps.org/smt/2026/mar-y62/1/)."
 
 [[items]]
 title = "Disorder-free Quantum Breakdown Model: Exact Solution and Dynamics"

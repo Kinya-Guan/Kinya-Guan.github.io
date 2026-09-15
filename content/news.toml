@@ -1,4 +1,12 @@
 [[news]]
+date = "2026-08"
+content = "Version 2 of our preprint, \"Exactly Solvable Disorder-free Quantum Breakdown Model: Spectrum, Thermodynamics, and Dynamics,\" is now available on arXiv, with corrected numerical results and expanded analytical derivations."
+
+[[news]]
+date = "2026-05"
+content = "Gave a seminar on \"Exactly Solvable Disorder-free Quantum Breakdown Model: Spectrum, Thermodynamics, and Dynamics\" at the Hatano Laboratory, The University of Tokyo, on May 27."
+
+[[news]]
 date = "2026-04"
 content = "Started my PhD studies in the Department of Physics at the University of Tokyo."
 [[news]]
@@ -6,5 +14,7 @@ date = "2026-03"
 content = "Graduated with a Master of Science in Physics from the University of Tokyo and started my PhD studies in the Department of Physics."
 [[news]]
 date = "2026-03"
+content = "Presented \"Disorder-free Quantum Breakdown Model: exact solution and dynamics\" at the APS Global Physics Summit 2026 in Denver on March 20."
+[[news]]
+date = "2026-03"
 content = "Our preprint, \"Exactly Solvable Disorder-free Quantum Breakdown Model: Spectrum, Thermodynamics, and Dynamics,\" was posted on arXiv."
-

@@ -1,12 +1,18 @@
 type = "card"
 title = "Talks"
-description = "学会発表およびポスター発表"
+description = "セミナー、学会発表およびポスター発表"
 
 [[items]]
 title = "Exactly Solvable Disorder-free Quantum Breakdown Model: Spectrum, Thermodynamics, and Dynamics"
+subtitle = "東京大学 羽田野研究室セミナー"
+date = "2026年5月27日"
+content = "研究セミナー、東京大学生産技術研究所。[セミナー案内・要旨](http://hatano-lab.iis.u-tokyo.ac.jp/seminar-je.html#2)。"
+
+[[items]]
+title = "Disorder-free Quantum Breakdown Model: exact solution and dynamics"
 subtitle = "APS Global Physics Summit 2026"
-date = "March 2026"
-content = "Virtual presentation (non-refereed)."
+date = "2026年3月20日"
+content = "一般口頭発表、米国コロラド州デンバー。セッション MAR-Y62：Out-of-Equilibrium Quantum Phenomena。共同研究者：Hosho Katsura。[要旨・プログラム](https://meetings-archive.aps.org/smt/2026/mar-y62/1/)。"
 
 [[items]]
 title = "Disorder-free Quantum Breakdown Model: Exact Solution and Dynamics"
